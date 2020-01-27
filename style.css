@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: auto;
+  padding: 1em;
+  width: 300px;
+}
+
+.search-section {
+  background-color: #600;
+  padding: 20px 0;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+input.searchguides {
+  font-size: 16px;
+  border: 5px solid #DDDDDD;
+  margin: 0;
+  outline: 0;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.suggestions {
+  margin: 0;
+  padding: 0;
+}
+
+.suggestions li {
+  background: white;
+  border-bottom: 1px solid #D8D8D8;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 14px;
+}
+
+.highlight {
+  background: #eeea1f;
+}
